@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-17T15:54:18 IST" name="Default suite" finished-at="2026-08-17T15:54:18 IST" duration-ms="68">
+  <suite started-at="2026-08-18T15:55:42 IST" name="Default suite" finished-at="2026-08-18T15:55:42 IST" duration-ms="60">
     <groups>
     </groups>
-    <test started-at="2026-08-17T15:54:18 IST" name="Default test" finished-at="2026-08-17T15:54:18 IST" duration-ms="68">
-      <class name="test.automation_testing.TestNG_practice1">
-        <test-method signature="abc()[pri:0, instance:test.automation_testing.TestNG_practice1@1b7cc17c]" started-at="2026-08-17T15:54:18 IST" name="abc" finished-at="2026-08-17T15:54:18 IST" duration-ms="12" status="PASS">
+    <test started-at="2026-08-18T15:55:42 IST" name="Default test" finished-at="2026-08-18T15:55:42 IST" duration-ms="60">
+      <class name="test.automation_testing.TestNG_priorities4">
+        <test-method signature="show0()[pri:-1, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="show0" finished-at="2026-08-18T15:55:42 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abc -->
-        <test-method signature="show()[pri:0, instance:test.automation_testing.TestNG_practice1@1b7cc17c]" started-at="2026-08-17T15:54:18 IST" name="show" finished-at="2026-08-17T15:54:18 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- show0 -->
+        <test-method signature="ashowNegative()[pri:0, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="ashowNegative" finished-at="2026-08-18T15:55:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- show -->
-        <test-method signature="xyz()[pri:0, instance:test.automation_testing.TestNG_practice1@1b7cc17c]" started-at="2026-08-17T15:54:18 IST" name="xyz" finished-at="2026-08-17T15:54:18 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- ashowNegative -->
+        <test-method signature="show2()[pri:0, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="show2" finished-at="2026-08-18T15:55:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xyz -->
-      </class> <!-- test.automation_testing.TestNG_practice1 -->
+        </test-method> <!-- show2 -->
+      </class> <!-- test.automation_testing.TestNG_priorities4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
