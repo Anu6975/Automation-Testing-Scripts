@@ -5,7 +5,7 @@ package test.automation_testing;
 
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class Facebook {
+public class Task2_VerifyFacebookURL {
 
 	public static void main(String[] args) {
 		EdgeDriver driver = new EdgeDriver();

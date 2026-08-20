@@ -1,25 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-18T15:55:42 IST" name="Default suite" finished-at="2026-08-18T15:55:42 IST" duration-ms="60">
+  <suite started-at="2026-08-20T11:34:51 IST" name="Default suite" finished-at="2026-08-20T11:35:06 IST" duration-ms="14566">
     <groups>
     </groups>
-    <test started-at="2026-08-18T15:55:42 IST" name="Default test" finished-at="2026-08-18T15:55:42 IST" duration-ms="60">
-      <class name="test.automation_testing.TestNG_priorities4">
-        <test-method signature="show0()[pri:-1, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="show0" finished-at="2026-08-18T15:55:42 IST" duration-ms="10" status="PASS">
+    <test started-at="2026-08-20T11:34:51 IST" name="Default test" finished-at="2026-08-20T11:35:06 IST" duration-ms="14566">
+      <class name="test_dataProvider.saucedemo_login_logout">
+        <test-method is-config="true" signature="launch()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:51 IST" name="launch" finished-at="2026-08-20T11:34:54 IST" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- show0 -->
-        <test-method signature="ashowNegative()[pri:0, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="ashowNegative" finished-at="2026-08-18T15:55:42 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- launch -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:54 IST" name="login" data-provider="dp" finished-at="2026-08-20T11:34:54 IST" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ashowNegative -->
-        <test-method signature="show2()[pri:0, instance:test.automation_testing.TestNG_priorities4@1b7cc17c]" started-at="2026-08-18T15:55:42 IST" name="show2" finished-at="2026-08-18T15:55:42 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:54 IST" name="logout" finished-at="2026-08-20T11:34:56 IST" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- show2 -->
-      </class> <!-- test.automation_testing.TestNG_priorities4 -->
+        </test-method> <!-- logout -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:56 IST" name="login" data-provider="dp" finished-at="2026-08-20T11:34:56 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:56 IST" name="logout" finished-at="2026-08-20T11:34:57 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:34:57 IST" name="login" data-provider="dp" finished-at="2026-08-20T11:35:02 IST" duration-ms="5136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:02 IST" name="logout" finished-at="2026-08-20T11:35:03 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:03 IST" name="login" data-provider="dp" finished-at="2026-08-20T11:35:03 IST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:03 IST" name="logout" finished-at="2026-08-20T11:35:04 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:04 IST" name="login" data-provider="dp" finished-at="2026-08-20T11:35:05 IST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:05 IST" name="logout" finished-at="2026-08-20T11:35:06 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test_dataProvider.saucedemo_login_logout@5b7a5baa]" started-at="2026-08-20T11:35:06 IST" name="close" finished-at="2026-08-20T11:35:06 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test_dataProvider.saucedemo_login_logout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

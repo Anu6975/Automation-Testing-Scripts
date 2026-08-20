@@ -3,7 +3,7 @@
 package test.automation_testing;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class Instagram {
+public class Task1_VerifyInstagramTitle {
 
 	public static void main(String[] args) {
 

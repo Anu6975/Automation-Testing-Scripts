@@ -3,18 +3,18 @@ package test.automation_testing;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class FB_invalid {
+public class Locators_FacebookInvalid {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FB_invalid o  = new FB_invalid();
+		Locators_FacebookInvalid o  = new Locators_FacebookInvalid();
 		o.invalidtest();
 		
 	}
 	
 	void invalidtest() {
 		EdgeDriver driver = new EdgeDriver();
-		driver.get("https.//secure.facebook.com/");
+		driver.get("https://secure.facebook.com/");
 		
 		//id
 		driver.findElement(By.id("email")).sendKeys("anuja@gmail.com");
