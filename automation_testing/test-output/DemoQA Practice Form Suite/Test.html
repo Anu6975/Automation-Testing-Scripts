@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 20 09:34:00 IST 2026</td>
+<td>Started on:</td><td>Fri Aug 21 02:51:52 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25225 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12803 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='DemoQA_PracticeForm.practiceForm_02.fillAdditionalDetails()'><b>fillAdditionalDetails</b><br>Test class: DemoQA_PracticeForm.practiceForm_02</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;hobbies-checkbox-2&quot; class=&quot;form-check-input&quot; type=&quot;checkbox&quot; value=&quot;2&quot;&gt; is not clickable at point (586, 531). Other element would receive the click: &lt;div class=&quot;subjects-auto-complete__option subjects-auto-complete__option--is-focused css-d7l1ni-option&quot; aria-disabled=&quot;false&quot; id=&quot;react-select-2-option-0&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-selected=&quot;false&quot;&gt;...&lt;/div&gt;
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=151.0.7922.140)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56a45dd587e608bd94f46bf269b4e508, clickElement {id=f.3AAD7566EB6F28F96322BDFF12349B72.d.03ED23960F19C1E77322C35CA84B6018.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50639}, goog:processID: 6892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50639/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (56a45dd587e608bd94f46bf269b4e508)] -&gt; id: hobbies-checkbox-2]
-Session ID: 56a45dd587e608bd94f46bf269b4e508
+Command: [03d9c8636ec1674d678f4a138eced3c9, sendKeysToElement {id=f.FA2679835AC44DE06CD88F7408F54098.d.39FE7DBAA1081D076E83F46BD912DE16.e.12, value=[Ljava.lang.CharSequence;@39dcf4b0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34989}, goog:processID: 9932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:34989/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (03d9c8636ec1674d678f4a138eced3c9)] -&gt; id: react-select-4-input]
+Session ID: 03d9c8636ec1674d678f4a138eced3c9
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -94,19 +94,19 @@ Session ID: 56a45dd587e608bd94f46bf269b4e508
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 	at DemoQA_PracticeForm.practiceForm_02.fillAdditionalDetails(practiceForm_02.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace706665172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace706665172'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;hobbies-checkbox-2&quot; class=&quot;form-check-input&quot; type=&quot;checkbox&quot; value=&quot;2&quot;&gt; is not clickable at point (586, 531). Other element would receive the click: &lt;div class=&quot;subjects-auto-complete__option subjects-auto-complete__option--is-focused css-d7l1ni-option&quot; aria-disabled=&quot;false&quot; id=&quot;react-select-2-option-0&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-selected=&quot;false&quot;&gt;...&lt;/div&gt;
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace371976476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace371976476'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=151.0.7922.140)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56a45dd587e608bd94f46bf269b4e508, clickElement {id=f.3AAD7566EB6F28F96322BDFF12349B72.d.03ED23960F19C1E77322C35CA84B6018.e.18}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50639}, goog:processID: 6892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50639/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (56a45dd587e608bd94f46bf269b4e508)] -&gt; id: hobbies-checkbox-2]
-Session ID: 56a45dd587e608bd94f46bf269b4e508
+Command: [03d9c8636ec1674d678f4a138eced3c9, sendKeysToElement {id=f.FA2679835AC44DE06CD88F7408F54098.d.39FE7DBAA1081D076E83F46BD912DE16.e.12, value=[Ljava.lang.CharSequence;@39dcf4b0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34989}, goog:processID: 9932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:34989/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (03d9c8636ec1674d678f4a138eced3c9)] -&gt; id: react-select-4-input]
+Session ID: 03d9c8636ec1674d678f4a138eced3c9
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -118,7 +118,7 @@ Session ID: 56a45dd587e608bd94f46bf269b4e508
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 	at DemoQA_PracticeForm.practiceForm_02.fillAdditionalDetails(practiceForm_02.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -147,8 +147,8 @@ Session ID: 56a45dd587e608bd94f46bf269b4e508
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>1</td>
-<td>DemoQA_PracticeForm.practiceForm_02@2d3379b4</td></tr>
+<td>3</td>
+<td>DemoQA_PracticeForm.practiceForm_02@6b2ea799</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -161,8 +161,8 @@ Session ID: 56a45dd587e608bd94f46bf269b4e508
 <tr>
 <td title='DemoQA_PracticeForm.PracticeForm_01.fillBasicDetails()'><b>fillBasicDetails</b><br>Test class: DemoQA_PracticeForm.PracticeForm_01</td>
 <td></td>
-<td>2</td>
-<td>DemoQA_PracticeForm.PracticeForm_01@639c2c1d</td></tr>
+<td>9</td>
+<td>DemoQA_PracticeForm.PracticeForm_01@618b19ad</td></tr>
 </table><p>
 </body>
 </html>

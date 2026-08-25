@@ -4,11 +4,20 @@
 <suite name = "Suite">
 	<test thread-count="5" name="Test">
 	
-	<parameter name="num1" value="11"></parameter>
-	<parameter name="num2" value="111"></parameter>
+	<groups>
+	<run>
+	<include name ="regressionTest"></include>
+	<exclude name = "smoketest"></exclude>
+	</run>
+	</groups>
+	
+	<!--  >parameter name="num1" value="11"></parameter-->
+	<!--  >parameter name="num2" value="111"></parameter-->
 	
 	<classes>
-	<class name="test.automation_testing.Parameterized_Testing"/>
+	<!--class name="test.automation_testing.Parameterized_Testing"/-->
+	<class name="Grouping_TestNG.Grouping"/>
+	<class name="Grouping_TestNG.PriorityTesting"/>
 	</classes>
 	</test>
 	</suite>

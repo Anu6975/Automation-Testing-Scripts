@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_dataProvider.saucedemo_login_logout">
+      <class name="TestNG_Practice.TutorialsPoint_PracticeForm">
         <methods>
-          <include name="logout"/>
-          <include name="login"/>
           <include name="close"/>
-          <include name="launch"/>
+          <include name="setup"/>
+          <include name="Launch"/>
+          <include name="redioDemo"/>
         </methods>
-      </class> <!-- test_dataProvider.saucedemo_login_logout -->
+      </class> <!-- TestNG_Practice.TutorialsPoint_PracticeForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

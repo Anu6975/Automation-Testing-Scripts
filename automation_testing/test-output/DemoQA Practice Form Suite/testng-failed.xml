@@ -5,9 +5,9 @@
     <classes>
       <class name="DemoQA_PracticeForm.practiceForm_02">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="launch"/>
           <include name="fillAdditionalDetails"/>
+          <include name="close"/>
         </methods>
       </class> <!-- DemoQA_PracticeForm.practiceForm_02 -->
     </classes>
