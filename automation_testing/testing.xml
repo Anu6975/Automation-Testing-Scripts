@@ -1,23 +1,63 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
+<<!-- Parameterized Testing -->
+
+<!-- >?xml version = "1.0" encoding = "UTF-8"?>
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name = "Suite">
+<suite name = "Suite" parallel = "classes" thread-count= "2">
+	<test thread-count="5" name="Test">
+
+	
+	<parameter name="num1" value="11"></parameter>
+	<parameter name="num2" value="111"></parameter>
+	
+	<classes>
+	<class name="test.automation_testing.Parameterized_Testing"/>
+
+	</classes>
+	</test>
+	</suite -->
+	
+	
+	
+<<!-- Grouping and Include Excludes -->	
+<!-- >?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Suite" parallel = "classes" thread-count= "2">
 	<test thread-count="5" name="Test">
 	
 	<groups>
 	<run>
-	<include name ="regressionTest"></include>
+	<  >include name ="regressionTest"></include>
 	<exclude name = "smoketest"></exclude>
 	</run>
 	</groups>
-	
-	<!--  >parameter name="num1" value="11"></parameter-->
-	<!--  >parameter name="num2" value="111"></parameter-->
-	
 	<classes>
-	<!--class name="test.automation_testing.Parameterized_Testing"/-->
+	<class name="test.automation_testing.Parameterized_Testing"/>
+	
 	<class name="Grouping_TestNG.Grouping"/>
 	<class name="Grouping_TestNG.PriorityTesting"/>
+	
+	
+	</classes>
+	</test>
+	</suite -->
+	
+	
+	
+<!-- PArallel Testing - Classes -->
+	
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Suite" parallel = "classes" thread-count= "2">
+	<test thread-count="5" name="Test">
+	
+	<classes>
+	
+	<class name="ParallelTesting.demo1"></class>
+	<class name="ParallelTesting.demo2"></class>
+	
 	</classes>
 	</test>
 	</suite>
